@@ -40,8 +40,8 @@ query AllUsers {
 # Set `name` variable in Playground
 query UserByName($name: String!) {
   getUser(name: $name) {
-    login
     id
+    login
     avatar_url
   }
 }
