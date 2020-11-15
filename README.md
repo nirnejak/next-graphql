@@ -21,3 +21,9 @@ npm run build
 ```
 
 ---
+
+## GraphQL API available at
+
+```
+http://localhost:3000/api/graphql
+```
