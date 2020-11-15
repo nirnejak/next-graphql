@@ -27,3 +27,22 @@ npm run build
 ```
 http://localhost:3000/api/graphql
 ```
+
+```graphql
+query AllUsers {
+  getUsers {
+    id
+    login
+    avatar_url
+  }
+}
+
+# Set `name` variable in Playground
+query UserByName($name: String!) {
+  getUser(name: $name) {
+    login
+    id
+    avatar_url
+  }
+}
+```
